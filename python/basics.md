@@ -1,9 +1,9 @@
 ## Bash Basics
-Unix is an operating system that many computer programmers use. Mac OS is built on Unix. Understanding how to use a Unix terminal is important for developers. Bash stands for "Bourne again shell" which is basically an interpreter for Unix. On a mac, open up the terminal like so:
+Unix is an operating system that many computer programmers use. Understanding how to use a Unix terminal is important for developers. Bash stands for "Bourne again shell" which is basically an interpreter for Unix. For Windows 10, make sure you install a linux subsystem (follow the link instructions):
 
-![Image of Mac Terminal](http://blog.teamtreehouse.com/wp-content/uploads/2012/09/Screen-Shot-2012-09-25-at-12.57.00-PM.png)
+https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
 
-In the terminal you will have a prompt and a cursor blinking. There are several commands that you need to know (the prompt is denoted with the dollar sign $):
+When you get the terminal on Windows up, try out the following commands. In the terminal you will have a prompt and a cursor blinking. There are several commands that you need to know (the prompt is denoted with the dollar sign $):
 ```
 $ ls                        <--- list the contents of the current directory
 
