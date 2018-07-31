@@ -1,7 +1,7 @@
-### 1. Hello World script
+### 1. Hello World Script
 This is the first program for any language. Create a python script that prints "Hello World" to the command-line.
 
-### 2. Variables and Data Types: Strings and Integers 
+### 2. Odd or Even Script 
 Take the following code and make sure
 ```python
 # copy this code into your file and use it for this assignment.
