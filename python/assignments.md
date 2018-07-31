@@ -1,3 +1,5 @@
+All assignments for python section will be added here.
+
 ### 1. Hello World Script
 This is the first program for any language. Create a python script that prints "Hello World" to the command-line.
 
