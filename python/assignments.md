@@ -12,7 +12,16 @@ def add_ten(x):
 
 # YOUR CODE WILL GO INTO THIS FUNCTION
 def print_even_or_odd(x):
-   # remember the logic in this function must be indented
+   # 1. remember the logic in this function must be indented
+   # 2. to determine whether a number is even: x % 2 is EQUAL to 0
+   # 3. to determine whether a number is odd: x % 2 is NOT EQUAL to 0
+   # basic logic:
+   #
+   # if x % 2 is equal to 0, then print "even"
+   # else then print "odd"
+   #
+   # code the above logic in this function
+   
 
 
 a = 894754
