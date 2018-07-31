@@ -39,6 +39,11 @@ add_ten(a) # this will send the variable "a" to add_ten() and store contents of 
 
 # now you must call print_even_or_odd() and the output should be what you expect
 print_even_or_odd(a)
+print_even_or_odd(b)
+print_even_or_odd(c)
+print_even_or_odd(d)
+print_even_or_odd(e)
+print_even_or_odd(f)
 
 # this should print "even"!!!!!
 ```
