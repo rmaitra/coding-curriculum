@@ -49,3 +49,14 @@ print_even_or_odd(f)
 
 # this should print "even"!!!!!
 ```
+
+### 3. String Manipulation
+You will write a function that Copy the below code and finish writing the function.
+```python
+def change_e_to_3(string):
+     # your code goes in here, print the output
+     
+change_e_to_3("Cheetah") # example output for this should be "Ch33tah"
+change_e_to_3("Eat before you SLEEP") # example output for this should be "3at b3for3 you SL33P" notice the uppercase handling
+change_e_to_3("TRES LECHE is 3 leches") 
+```
