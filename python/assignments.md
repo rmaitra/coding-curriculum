@@ -53,10 +53,38 @@ print_even_or_odd(f)
 ### 3. String Manipulation
 You will write a function that Copy the below code and finish writing the function.
 ```python
-def change_e_to_3(string):
+def change_e_to_3(x):
      # your code goes in here, print the output
      
 change_e_to_3("Cheetah") # example output for this should be "Ch33tah"
 change_e_to_3("Eat before you SLEEP") # example output for this should be "3at b3for3 you SL33P" notice the uppercase handling
 change_e_to_3("TRES LECHE is 3 leches") 
+```
+
+### 4. Functions that RETURN data
+You will write a function that uses the keyword ```return``` to return data from your function to a new variable. For instance, let's assume we have a function called ```does_this_string_say_happy()``` and all it does is return a ```True``` or ```False```. We can write a script that looks like:
+```python
+def does_this_string_say_happy(string_variable):
+    if string_variable == "happy":
+       return True
+    else:
+       return False
+       
+a = "happy"
+b = does_this_string_say_happy(a) # we send our function the variable (a) which contains the STRING data "happy"
+print b
+```
+So functions can take data, manipulate it, then return it back to our main program for more processing.
+
+Your goal is to fill out a function returns the length of a string! For example, the string ```"asdf"``` has a length of 4 (it has 4 characters: "a", "s", "d", "f"). Your function should return the length of ANY string.
+```python 
+def length_of_string(y)
+     # your logic goes here
+     
+a = "owierunfgldlkg;aoijtlgjklsndf;oitjglksjdflkjsdofijsdf"
+b = length_of_string(a)
+c = b * 10
+print "The length of " + a + " is " + str(b) + " and if you multiply that by 10 then you get " + str(c) 
+# you can't print strings and integers in the same line, so we cast our integers stored in (a) and (c) to be strings with
+# the function str()
 ```
